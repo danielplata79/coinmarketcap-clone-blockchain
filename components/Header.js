@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Search from '../assets/svg/search.js'
+import { ConnectButton } from 'web3uikit'
 
 const styles = {
     header: `bg-[#24242a] text-white h-20 gap-[100px] w-full p-[30px]`,
@@ -56,7 +57,7 @@ const Header = () => {
                     </div>
 
                     <div className='flex items-center'>
-                        {/* connectButton */}
+                        <ConnectButton/>
                         <div className={styles.inputContainer}>
                             <Search/>
                             <input className={styles.input} placeholder="Search coin"></input>
