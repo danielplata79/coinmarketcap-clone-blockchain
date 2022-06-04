@@ -20,19 +20,7 @@ const TrendingCard = ({ icon, title, trendingData }) => {
       </div>
       <br />
 
-      {/* {trendingData.map((item, index) => {
-        return (
-          <TrendingCardRow
-            key={index}
-            number={item.number}
-            symbol={item.symbol}
-            name={item.name}
-            icon={item.icon}
-            isIncrement={item.isIncrement}
-            rate={item.rate}
-          />
-        )
-      })} */}
+
     </div>
   )
 }
