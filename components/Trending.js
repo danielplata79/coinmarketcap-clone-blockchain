@@ -1,4 +1,4 @@
-import React,{ useState } from 'react'
+import { useState } from 'react'
 import Rate from "./cmc-table/rate"
 import fire from '../assets/fire.png'
 import usdt from '../assets/usdt.png'
@@ -10,8 +10,7 @@ import TrendingCard from './trendingCard'
 
 const styles = {
     trendingWrapper: `mx-auto max-w-screen-2x1`,
-    
-    flexCenter: `flex items-center`
+    flexCenter: `flex items-center`,
 }
 
 const Trending  = () => {
