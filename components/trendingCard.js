@@ -18,7 +18,7 @@ const TrendingCard = ({ icon, title, trendingData }) => {
         </div>
         <MoreButton />
       </div>
-      <br />
+     
 
 
     </div>
